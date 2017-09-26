@@ -4,7 +4,7 @@ import argparse
 import pdb
 import cPickle as pkl
 
-class winlose:
+class template:
     def __init__(self):
         print("Sample usage: python3 randomSample.py filtered.tsv 0.1 0.2")
         parser = argparse.ArgumentParser()
@@ -16,5 +16,5 @@ class winlose:
 
 
 if __name__ == '__main__':
-    w = winlose()
-    w.load_file(sys.argv[1])
+    t = template()
+    t.load_file(sys.argv[1])
